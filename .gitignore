@@ -1,0 +1,17 @@
+bin
+tmp
+temp
+log
+target
+.externalToolBuilders
+.classpath
+.project
+.settings
+*~
+*.iml
+*.ipr
+*.iws
+.idea
+
+# Mac specific
+.DS_Store
