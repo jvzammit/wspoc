@@ -33,12 +33,8 @@ public class MainSocket extends WebSocketServlet {
 	private Provider<ChatLogHandler> chatLogHdlr;
 	
     @Inject
-	public void setChatLogHandler(Provider<ChatLogHandler> chatLogHdlr) {
+    public MainSocket(Provider<ChatLogHandler> chatLogHdlr) {
     	this.chatLogHdlr = chatLogHdlr;
-    }
-    
-    @Inject
-    public MainSocket() {
     }
 	
     @Override
